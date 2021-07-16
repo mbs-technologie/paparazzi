@@ -4,7 +4,7 @@
 # docker export pprz-dep | gzip -c > pprz-dep.tgz
 # docker import pprz-dep < pprz-dep.tgz
 
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210114
 MAINTAINER Felix Ruess <felix.ruess@gmail.com>
 
 # Add Tini
